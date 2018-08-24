@@ -55,3 +55,6 @@ document.addEventListener('DOMContentLoaded',function (){
 		tagInput.value = "";
 	}
 });
+
+//problemy:
+//skad mam wiedziec jaki tag wpisac zeby pokazac brakujace obrazki?
