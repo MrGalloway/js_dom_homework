@@ -5,6 +5,7 @@
     <title>Pizza</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <script src='./js/pizza.js'></script>
 </head>
 <body>
 <nav class='navbar navbar-default'>
@@ -27,7 +28,7 @@
         <div class='panel'>
             <div class='panel-body'>
                 <form>
-                    <div class="checkbox">
+                    <div class="checkbox" id="allitems">
                         <label><input type="checkbox">Wszystkie dodatki</label>
                     </div>
                     <div class="checkbox">
@@ -45,12 +46,12 @@
                     <div class="checkbox">
                         <label><input type="checkbox" data-price="3.50">Pieczarki, 3,50 zł</label>
                     </div>
-                    <div class="checkbox">
+                    <!--<div class="checkbox">
                         <label><input type="checkbox">Wyczyść</label>
-                    </div>
+		    </div>-->
                     <br>
                     <p>
-                        <button class='btn btn-primary'>Submit</button>
+                        <button class='btn btn-primary' type='button'>Submit</button>
                     </p>
                 </form>
             </div>
